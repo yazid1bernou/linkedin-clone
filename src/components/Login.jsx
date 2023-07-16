@@ -28,8 +28,18 @@ const Login = () => {
   )
 }
 
-const Container =  styled.div``
-const Nav =  styled.nav``
+const Container =  styled.div`
+padding : 0px ;
+`
+const Nav =  styled.nav`
+max-width: 1128px;
+  padding: 12px 0 16px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+`
 const Join =  styled.a``
 const SignIn =  styled.a``
 const Section = styled.section``
